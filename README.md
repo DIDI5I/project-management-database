@@ -102,7 +102,7 @@ These forms allow efficient data entry, modification, and visualization.
 
 A full technical report is available here:
 
-![Project Report](docs/project management system report.pdf)
+Project Report => (docs/project management system report.pdf)
 
 ---
 
