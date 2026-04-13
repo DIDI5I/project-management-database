@@ -47,6 +47,15 @@ Forms were implemented to:
 
 ---
 
+## Documentation
+A full technical report is included in the `/docs` folder, covering:
+- Data dictionary
+- Functional dependencies
+- Conceptual and logical models (MCD, MLD)
+- Implementation (tables, queries, forms)
+
+---
+
 ## How to Run
 1. Download the `.accdb` file from the `/database` folder
 2. Open it using Microsoft Access
