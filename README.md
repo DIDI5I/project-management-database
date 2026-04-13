@@ -80,13 +80,13 @@ These forms allow efficient data entry, modification, and visualization.
 ## System Preview
 
 ### Database Relationships
-![Relationships](screenshots/relationships.png)
+![Relationships](screenshots/relationships.PNG)
 
 ### User Interface (Form Example)
-![Form](screenshots/navigation_form.png)
+![Form](screenshots/navigation_form.PNG)
 
 ### Query Example
-![Query](screenshots/queries.png)
+![Query](screenshots/Queries.PNG)
 
 ---
 
