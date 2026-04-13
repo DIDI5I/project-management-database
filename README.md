@@ -3,66 +3,121 @@
 ## Overview
 This project is a relational database system built using Microsoft Access to manage projects, teams, and performance metrics.
 
-The system simulates a real-world workflow by integrating data storage, analysis, and user interaction.
+It was developed using a structured database engineering approach, including:
+- Data dictionary
+- Functional dependencies
+- Conceptual Data Model (MCD)
+- Logical Data Model (MLD)
+- Implementation using tables, queries, forms, and reports
+
+The system simulates a real-world environment for managing continuous improvement projects (Lean / Six Sigma).
 
 ---
 
 ## Features
+
 - Project management (status, timelines, types)
-- Team and member organization
-- Objective tracking (target vs achieved)
-- Performance analysis (before/after comparison)
-- Reporting system
+- Team organization and member assignment
+- Objective tracking (target vs achieved values)
+- Performance analysis (before/after comparison and savings)
+- Reporting system for project insights
 
 ---
 
 ## Database Structure
-The system is composed of multiple related tables:
 
-- Projects
-- Teams
-- Members
-- Objectives
-- Results
-- Reports
+The system is composed of the following main entities:
 
-Relationships are implemented using primary and foreign keys to ensure data integrity.
+- **Projects**
+- **Teams (Équipes)**
+- **Members**
+- **Objectives**
+- **Results**
+- **Reports**
+
+Relationships are implemented using primary and foreign keys to ensure data integrity and consistency.
+
+---
+
+## Key Concepts Applied
+
+- Relational database design
+- Entity relationships and normalization
+- Functional dependencies
+- Data modeling (MCD, MLD)
+- Query-based data analysis
+- User interface design (forms)
 
 ---
 
 ## Queries
+
 The system includes queries for:
+
+- Listing all projects and their teams
 - Filtering members
-- Identifying unassigned members
+- Identifying members without assigned projects
 - Counting projects per team
-- Data aggregation and analysis
+- Displaying project results and performance metrics
 
 ---
 
 ## User Interface
-Forms were implemented to:
-- Simplify data entry
-- Improve usability
-- Provide structured interaction with the system
+
+Forms were implemented to improve usability and interaction with the system:
+
+- Project form
+- Team form
+- Member form
+- Objective form
+- Results form
+- Navigation form
+
+These forms allow efficient data entry, modification, and visualization.
 
 ---
 
-## Documentation
-A full technical report is included in the `/docs` folder, covering:
-- Data dictionary
-- Functional dependencies
-- Conceptual and logical models (MCD, MLD)
-- Implementation (tables, queries, forms)
+## System Preview
+
+### Database Relationships
+![Relationships](screenshots/relationships.png)
+
+### User Interface (Form Example)
+![Form](screenshots/navigation_form.png)
+
+### Query Example
+![Query](screenshots/queries.png)
 
 ---
 
 ## How to Run
+
 1. Download the `.accdb` file from the `/database` folder
 2. Open it using Microsoft Access
 3. Enable content if prompted
 
 ---
 
+## Documentation
+
+A full technical report is available here:
+
+[Project Report](docs/project management system report.pdf)
+
+---
+
+## Contributors
+
+This project was developed as part of a team:
+
+- Your Name
+- AOUALTITE Meryem
+- GHARIB Fatima
+
+---
+
 ## Future Improvements
-- Rebuild the system using SQL + Python backend
+
+- Rebuild the system using SQL and Python
 - Add automation and analytics dashboards
+- Improve scalability and performance
