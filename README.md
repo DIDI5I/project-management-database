@@ -110,7 +110,7 @@ A full technical report is available here:
 
 This project was developed as part of a team:
 
-- Your Name
+- BANDA Christopher
 - AOUALTITE Meryem
 - GHARIB Fatima
 
